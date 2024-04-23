@@ -1,0 +1,36 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#box{
+    margin-top: 200px;
+    height: 500px;
+    width: 500px;
+    background: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.749);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: 2rem;
+    transition-duration: 1s;
+}
+#box:hover{
+    filter: drop-shadow(5px 5px 4px black);
+    border-radius: 30%;
+    backdrop-filter: blur(20px);
+    backdrop-filter: brightness(20px);
+    font-size: 4rem;
+}
+#box:active{
+    filter: drop-shadow(5px 5px 8px black);
+    border-radius: 50%;
+    backdrop-filter: blur(40px);
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+}
